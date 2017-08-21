@@ -70,7 +70,7 @@ function queryBart() {
     //choose which bart staion to to monitor, station abbreviations are here: http://api.bart.gov/docs/overview/abbrev.aspx
     bart.on('powl', function(estimates) {
         //log the results to the console
-        console.log(estimates);
+        // console.log(estimates);
 
 
         // store the results in some variables
